@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;500&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,600;1,200;1,600&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.btn {
+  padding: 10px 15px !important;
+  border-radius: 10px !important;
+  text-transform: capitalize !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  color: #fff !important;
+}
+
+.MuiInputBase-input {
+  font-size: 14px !important;
+}
+
+.addNoteDialog .MuiDialogTitle-root {
+  font-weight: 700 !important;
+  text-align: center !important;
+  margin-bottom: 20px;
+  background-color: #ede7f6 !important;
+}
+
+.addNoteDialog {
+  position: relative;
+}
+
+.closeBtn {
+  position: absolute;
+  right: 0;
+}
+
+.MuiSwitch-root .MuiSwitch-track {
+  background: grey;
+}
